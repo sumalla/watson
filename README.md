@@ -24,7 +24,6 @@ Then you'll need to create a enviromental array containg your usernames and pass
 <p>your file should look something like this 
 <br>
 <pre>
-<code>
 <?php
 	$_ENV['username_user_model'] = "USER_MODELLING_USERNAME";
 	$_ENV['username_qa'] = "QUESTION_ANSWER_USERNAME";
