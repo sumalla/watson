@@ -24,18 +24,12 @@ Then you'll need to create a enviromental array containg your usernames and pass
 <p>your file should look something like this 
 <br>
 <pre>
-	<code>
-		<?php
-
-		 $_ENV['username_user_model'] = "USER_MODELLING_USERNAME";
-
-		 $_ENV['username_qa'] = "QUESTION_ANSWER_USERNAME";
-
-		 $_ENV['password_user_model'] = "USER_MODELING_PASSWORD";
-
-		 $_ENV['password_qa'] = "QUESTION_ANSWER_PASSWORD";
-
-		?>
-	</code>
+<code>
+<?php
+	$_ENV['username_user_model'] = "USER_MODELLING_USERNAME";
+	$_ENV['username_qa'] = "QUESTION_ANSWER_USERNAME";
+	$_ENV['password_user_model'] = "USER_MODELING_PASSWORD";
+	$_ENV['password_qa'] = "QUESTION_ANSWER_PASSWORD";
+?>
 </pre>
 Copy over the dist folder to your server  then move the classes folder over to the root of your app aswell and your good to go!
