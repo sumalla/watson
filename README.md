@@ -23,11 +23,11 @@ To install this you need to do the following:
 Then you'll need to create a enviromental array containg your usernames and passwords create a env_vars.php file in <code>/app/classes</code> folder, then 
 <br>
 <code>
-	<?php
-		$_ENV['username_user_model'] = "USER_MODELLING_USERNAME";
-		$_ENV['username_qa'] = "QUESTION_ANSWER_USERNAME";
-		$_ENV['password_user_model'] = "USER_MODELING_PASSWORD";
-		$_ENV['password_qa'] = "QUESTION_ANSWER_PASSWORD";
-	?>
+<?php
+ $_ENV['username_user_model'] = "USER_MODELLING_USERNAME";
+ $_ENV['username_qa'] = "QUESTION_ANSWER_USERNAME";
+ $_ENV['password_user_model'] = "USER_MODELING_PASSWORD";
+ $_ENV['password_qa'] = "QUESTION_ANSWER_PASSWORD";
+?>
 </code>
 Copy over the dist folder to your server  then move the classes folder over to the root of your app aswell and your good to go!
