@@ -17,13 +17,10 @@ To install this you need to do the following:
 	git clone https://github.com/vimes1984/watson.git
 	npm install
 	bower install --save-dev
-</pre>
-<code>
 	grunt build
-</code>
+</pre>
 <br>
-Then you'll need to create a enviromental array containg your usernames and passwords create a env_vars.php file in <code>/app/classes</code> folder, 
-<p>your file should look something like this 
+Then you'll need to create a enviromental array containg your usernames and passwords create a env_vars.php file in <code>/app/classes</code> folder, your file should look something like this:
 <br>
 <pre>
 	$_ENV['username_user_model'] = "USER_MODELLING_USERNAME";
