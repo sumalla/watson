@@ -1,0 +1,24 @@
+<div class="row">
+            <div class="col-lg-12">
+                <h2>Input your twitter ID</h2>
+                <p>input you twitter ID and see what Watson thinks of you....</p>
+                <div class="well">
+                        <fieldset>
+                            <div class="form-group row">
+                                <div class="col-lg-10">
+                                    <input id="questionText" ng-model="usermodelinput" name="usermodelinput" placeholder="Type your twitter ID..." required="true" value="" class="form-control" >
+                                </div>
+                                <div class="col-lg-2">
+                                    <button ng-click="getusermodel()"  class="btn btn-block" type="button">Get</button>
+                                </div>
+                            </div>
+                            </div>
+                        </fieldset>
+                </div>
+            </div>
+        </div>        
+        <div class="row" ng-hide="charthide">
+            <div class="col-lg-12">
+                <section ng-bind-html="chartreturn"></section>
+            </div>
+        </div>

@@ -1,0 +1,52 @@
+    <div class="container">
+        <div class="header row">
+            <div class="col-lg-12">
+                <h1>IBM Watson Question Answer for Health</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>Ask A health question!</h2>
+                <p>Example questions:</p>
+                <ul>
+
+                </ul>
+                <div class="well">
+                        <fieldset>
+                            <div class="form-group row">
+                                <div class="col-lg-10">
+                                    <input id="questionText" ng-model="askedquestion" name="questionText" placeholder="Type a question..." required="true" value="" class="form-control" >
+                                </div>
+                                <div class="col-lg-2">
+                                    <button ng-click="askquestion()"  class="btn btn-block" type="button">Ask</button>
+                                </div>
+                            </div>
+                            </div>
+                        </fieldset>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div id="answerContent" class="col-lg-12" ng-hide="showhideanswers">
+                <h2>Answers and Confidence</h2>
+                <div class="well">
+                    <div class="form-group row">
+                        <div class="col-lg-7">
+                            <h3>Answer</h3>
+                        </div>
+                        <div class="col-lg-5">
+                            <h3>Confidence</h3>
+                        </div>
+                    </div>
+                    <div ng-repeat="results in returndata.question.evidencelist">
+                    <div class="form-group row">
+                        <div class="col-lg-7">
+                            <p>{{results.text}}</p>
+                        </div>
+                        <div class="col-lg-5">
+                            <h3> {{ results.value | limitTo:4 }}</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
