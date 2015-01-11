@@ -1,5 +1,25 @@
-Hello there, 
-this is a simple watson app to upload to your server all you need to do is create a env_cars.php file in /app/classes
+<h2>Sample Watson App with angularJS</h2>
+Borrowed heavily from: 
+	https://github.com/IBM-Bluemix/zendcon-2014-hackathon/ 
+this is a simple watson app to upload to your server 
+to install this you need to do the following: 
+<br>
+<code>
+	cd PROJECT FOLDER
+</code>
+<br>
+<code>
+	git clone https://github.com/vimes1984/watson.git
+	npm install
+	bower install --save-dev
+</code>
+<br>
+Then you'll need to create a enviromental array containg your usernames and passwords create a env_vars.php file in /app/classes folder, then 
+<br>
+<code>
+	grunt build
+</code>
+<br>
 <code>
 	<?php
 
@@ -9,3 +29,4 @@ this is a simple watson app to upload to your server all you need to do is creat
 	$_ENV['password_qa'] = "QUESTION_ANSWER_PASSWORD";
 	?>
 </code>
+Copy over the dist folder to your server  then move the classes folder over to the root of your app aswell and your good to go!
