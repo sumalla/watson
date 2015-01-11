@@ -14,9 +14,7 @@ To install this you need to do the following:
 </code>
 <br>
 <code>
-	git clone https://github.com/vimes1984/watson.git
-	npm install
-	bower install --save-dev
+	git clone https://github.com/vimes1984/watson.git && npm install && bower install --save-dev
 </code>
 <br>
 Then you'll need to create a enviromental array containg your usernames and passwords create a env_vars.php file in /app/classes folder, then 
