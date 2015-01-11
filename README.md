@@ -2,7 +2,12 @@
 Borrowed heavily from: 
 	https://github.com/IBM-Bluemix/zendcon-2014-hackathon/ 
 this is a simple watson app to upload to your server 
-to install this you need to do the following: 
+<h3>Prerequisites</h3>
+You need a IBM bluemix account: 
+https://console.ng.bluemix.net
+you'll need to add the Question and answer service & the User modeeling service.
+<h3>Install</h3>
+To install this you need to do the following: 
 <br>
 <code>
 	cd PROJECT FOLDER
