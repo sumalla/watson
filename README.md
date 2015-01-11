@@ -13,9 +13,11 @@ To install this you need to do the following:
 	cd PROJECT FOLDER
 </code>
 <br>
-<code>
-	git clone https://github.com/vimes1984/watson.git && npm install && bower install --save-dev
-</code>
+<pre>
+	git clone https://github.com/vimes1984/watson.git
+	npm install
+	bower install --save-dev
+</pre>
 <code>
 	grunt build
 </code>
@@ -24,7 +26,6 @@ Then you'll need to create a enviromental array containg your usernames and pass
 <p>your file should look something like this 
 <br>
 <pre>
-
 	$_ENV['username_user_model'] = "USER_MODELLING_USERNAME";
 	$_ENV['username_qa'] = "QUESTION_ANSWER_USERNAME";
 	$_ENV['password_user_model'] = "USER_MODELING_PASSWORD";
