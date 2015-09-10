@@ -82,8 +82,8 @@ class Watson_Requests{
 			    "plan": "question_and_answer_free_plan",
 			    "credentials": {
 			      "url": "https://gateway.watsonplatform.net/qagw/service",
-			      "username": "1d0d3764-5f66-400b-9450-b34b486aaa73",
-			      "password": "vTfBTlWtwqG4"
+			      "username": "***",
+			      "password": "***"
 			    }
 			  }
 			}';
