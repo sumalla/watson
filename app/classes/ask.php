@@ -16,8 +16,8 @@ header('Content-type: application/json');
 $services_json = json_decode(getenv('VCAP_SERVICES'), true);
 $watsonQa = $services_json["question_and_answer"][0]["credentials"];
 // Extract the VCAP_SERVICES variables for Watson QA connection.  
-$username = '1d0d3764-5f66-400b-9450-b34b486aaa73';
-$password = 'vTfBTlWtwqG4';
+$username = '***';
+$password = '****';
 $url =  'https://gateway.watsonplatform.net/qagw/service/v1/question/travel';
 $auth = base64_encode($username . ":" . $password);
 //Debug: Uncomment if you want to see the credentials extracted from VCAP_SERVICES
